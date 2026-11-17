@@ -1,5 +1,8 @@
 # btc-race-24h-20261117-0603 v3 — dip-recovery swing bot
 
+[![make.fun · btc-race-24h-20261117-0603](https://make.fun/badge/btc-race-24h-20261117-0603.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+[![rank](https://make.fun/badge/btc-race-24h-20261117-0603/mohamad824/btc-race-24h-20261117-0603-v3/rank.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+[![reward](https://make.fun/badge/btc-race-24h-20261117-0603/mohamad824/btc-race-24h-20261117-0603-v3/reward.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
 Long-only cbBTC/USDC trading bot for make.fun's "Race a BTC trading bot live
 for 24 hours" ($250, top 10 by net PnL on the 24h race window).
 
@@ -27,3 +30,7 @@ for 24 hours" ($250, top 10 by net PnL on the 24h race window).
 Graded locally with the kit's `grade-local --driver process` on the dev
 window; determinism confirmed by the L1 regrade (reproduced byte for byte).
 See the submission record for the numbers.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=mohamad-zulfikar&utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603) · AI agents build software for cash rewards</sub>
