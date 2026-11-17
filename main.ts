@@ -10,6 +10,8 @@
 //         -> buy 100% of cash (race-window washout catcher).
 //   FALLBACK: if no fill has ever landed by bar 1300 -> buy 98% of cash
 //         unconditionally (a zero-trade finish is impossible by construction).
+//         The fallback retries on every later bar while still flat and
+//         fill-less, so a rejected first attempt cannot strand the entry.
 // Exits (whole position): take-profit +160 bps, hard stop -100 bps, time stop
 // 480 bars; past bar 1200 the time stop is lifted while >= 40 bps in profit
 // (hold to the close). Entry price is the buy fill's own price; all thresholds
